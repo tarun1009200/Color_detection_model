@@ -53,10 +53,11 @@ while True:
     # Display the resulting frame
     cv2.imshow('frame', frame)
 
-    # Press 'q' to quit
+    #Press 'q' to quit
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
 # Release the camera and close the window
 cap.release()
 cv2.destroyAllWindows()
+
